@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="New list"
+        android:backgroundTint="#24acf5"
+        android:backgroundTintMode="add"
+
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:background="@android:color/transparent"
+        android:textSize="15sp"
+        android:textColor="#24acf5"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText3"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_marginTop="40dp" />
+
+
+</RelativeLayout>
